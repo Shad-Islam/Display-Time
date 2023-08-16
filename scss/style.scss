@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container{
+  width: 100%;
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/pexels-pixabay-259915.jpg);
+
+  .card{
+    width: 680px;
+    height: 325px;
+    color: #615f5d;
+    text-align: center;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    background-color: rgb(255, 255,255,0.5);
+    border: 2px solid rgb(255, 255,255,0.5);
+
+    .time__section{
+      font-size: 50px;
+      margin-top: 25px;
+      margin-bottom: 60px;
+      font-family:'Times New Roman', Times, serif;
+    }
+
+    .text p{
+      font-size: 30px;
+    }
+    .text h2{
+      font-size: 35px;
+    }
+  }
+
+}
